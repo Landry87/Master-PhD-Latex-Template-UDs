@@ -7,7 +7,7 @@
 
 % Choississez la langue de votre thèse (obligatoire)
 % Les choix possible sont english et français
-\switchLanguage{english}
+\switchLanguage{français}
 
 % Import de vos définitions et de votre style
 \input{defs-and-imports}
@@ -19,7 +19,7 @@
 \speciality{\computerScience}
 
 % Initiales du laboratoire
-\lab{LIFA}
+\lab{URIFIA}
 
 % Style des titres de chapitres (fieldset | titleontopright | default | section | hangnum | companion | article | demo | veelo | bringhurst | southall | chappell)
 \myChapterStyle{fieldset}
@@ -67,8 +67,10 @@
 	
 	% Inclusion des différents chapitres
 	\input{Introduction/Introduction}
+	\part{A part}
 	\input{Chap1/Chap1}
 	\input{Chap2/Chap2}
+	\part{Another part}
 	\input{Chap3/Chap3}
 	\input{Chap4/Chap4}
 	
@@ -79,7 +81,7 @@
 	%************ Bibliographie ***************
 	% La charte de l'école doctorale recommande un style dans lequel les citations seront de la forme (NomAuteur, Année) ou (NomAuteur et al., Année)
 	%\myBibliography{style}{url du fichier .bib}
-	\myBibliography{apalike}{bibliography}
+	\myBibliography{vancouver}{bibliography}
 	
 	% *********** Annexes *********************
 	\appendix
